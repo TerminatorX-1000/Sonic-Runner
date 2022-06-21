@@ -15,5 +15,14 @@ public class Events : MonoBehaviour
     {
         Application.Quit();
     }
-    
+
+    public void StartGame()
+    {
+        SceneManager.LoadScene("Level 1");
+    }
+    public void onClick()
+    {
+        Debug.Log("клик");
+    }
+
 }
