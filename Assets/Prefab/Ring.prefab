@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4412630029819368288
+--- !u!1 &1192377941324337404
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,7 +8,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2867587957937674416}
+  - component: {fileID: 3514476131984333110}
   m_Layer: 0
   m_Name: Ring Sound
   m_TagString: Untagged
@@ -16,22 +16,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2867587957937674416
+--- !u!4 &3514476131984333110
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4412630029819368288}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.333333, y: 3.333333, z: 3.333333}
+  m_GameObject: {fileID: 1192377941324337404}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 2.261613, y: 10.056131, z: -0.27508548}
+  m_LocalScale: {x: 0.49999988, y: 0.49999988, z: 0.27589312}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7758749638795983232}
+  m_Father: {fileID: 3964816219726342223}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6982634533190345530
+--- !u!1 &4345423837132665589
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -39,12 +39,12 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7758749638795983232}
-  - component: {fileID: 6630220201676830245}
-  - component: {fileID: 8928299867818689263}
-  - component: {fileID: 6630220201676830242}
-  - component: {fileID: 6630220201676830243}
-  - component: {fileID: 3273185081865880105}
+  - component: {fileID: 3964816219726342223}
+  - component: {fileID: 47851627288324074}
+  - component: {fileID: 2832473365265060640}
+  - component: {fileID: -2403139828882906153}
+  - component: {fileID: 8535701182437966096}
+  - component: {fileID: 5586466909774359358}
   m_Layer: 0
   m_Name: Ring
   m_TagString: Untagged
@@ -52,37 +52,37 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7758749638795983232
+--- !u!4 &3964816219726342223
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6982634533190345530}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.34, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_GameObject: {fileID: 4345423837132665589}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 1.3190001, y: 0.57100004, z: 0.010455941}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 2867587957937674416}
+  - {fileID: 3514476131984333110}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &6630220201676830245
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!33 &47851627288324074
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6982634533190345530}
-  m_Mesh: {fileID: 905485977951547768, guid: 50e21abc42207c949aaf0ee44cd921e0, type: 3}
---- !u!23 &8928299867818689263
+  m_GameObject: {fileID: 4345423837132665589}
+  m_Mesh: {fileID: 905485977951547768, guid: 2657aec2c3df5394facf303fc74c7cd7, type: 3}
+--- !u!23 &2832473365265060640
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6982634533190345530}
+  m_GameObject: {fileID: 4345423837132665589}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -118,26 +118,26 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6630220201676830242
+--- !u!65 &-2403139828882906153
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6982634533190345530}
+  m_GameObject: {fileID: 4345423837132665589}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.4, y: 2.4, z: 0.38997155}
+  m_Size: {x: 0.06096002, y: 0.06096002, z: 0.009905277}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6630220201676830243
+--- !u!114 &8535701182437966096
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6982634533190345530}
+  m_GameObject: {fileID: 4345423837132665589}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ecb3dc0efc05df4084ced1cc82dd394, type: 3}
@@ -145,13 +145,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 50
   ringSound: {fileID: 0}
---- !u!82 &3273185081865880105
+--- !u!82 &5586466909774359358
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6982634533190345530}
+  m_GameObject: {fileID: 4345423837132665589}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 5653294887781481942, guid: db777505a53a147439624c77f0a87738, type: 2}
