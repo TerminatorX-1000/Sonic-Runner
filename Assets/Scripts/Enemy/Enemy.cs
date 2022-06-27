@@ -42,8 +42,8 @@ namespace Enemy
             else if(_currentState == "ChaseState")
             {
                 //play the run animation
-                animator.SetTrigger("chase");
-                animator.SetBool("isAttacking", false);
+                //animator.SetTrigger("chase");
+                //animator.SetBool("isAttacking", false);
 
                 if(distance < attackRange)
                     _currentState = "AttackState";
@@ -53,7 +53,7 @@ namespace Enemy
                 {
                     //move right
                     transform.Translate(transform.right * speed * Time.deltaTime);
-                    transform.rotation = Quaternion.Euler(0, 180, 0);
+                    transform.rotation = Quaternion.Euler(0, -90, 0);
                 }
                 else
                 {

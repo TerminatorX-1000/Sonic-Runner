@@ -17,7 +17,7 @@ public class Ring : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(rotationSpeed*Time.deltaTime,0,0);
+        transform.Rotate(0, rotationSpeed * Time.deltaTime, 0);
         GetComponent<AudioSource>().clip = ringSound;
     }
     
